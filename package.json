@@ -1,6 +1,6 @@
 {
   "name": "@prefab-cloud/prefab-cloud-react-native",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "FeatureFlags & Dynamic Configuration as a Service",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,7 +16,7 @@
   "author": "Jeffrey Chupp",
   "license": "ISC",
   "dependencies": {
-    "@prefab-cloud/prefab-cloud-react": "^0.2.0",
+    "@prefab-cloud/prefab-cloud-react": "^0.2.5",
     "base-64": "^1.0.0",
     "react-native-get-random-values": "^1.10.0"
   },
