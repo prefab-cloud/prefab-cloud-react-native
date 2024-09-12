@@ -1,7 +1,7 @@
 {
   "name": "@prefab-cloud/prefab-cloud-react-native",
-  "version": "0.0.3",
-  "description": "FeatureFlags & Dynamic Configuration as a Service",
+  "version": "0.0.4-rc2",
+  "description": "Feature Flags & Dynamic Configuration as a Service",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -10,15 +10,14 @@
     "prettier": "prettier . -l",
     "prettier:fix": "npm run prettier --write .",
     "release": "npm run build && rm -rf dist/jest.config.js dist/src/*.test.js",
-    "preversion": "npm run test",
     "postversion": "npm run release && git push && git push --tags"
   },
   "author": "Jeffrey Chupp",
   "license": "ISC",
   "dependencies": {
-    "@prefab-cloud/prefab-cloud-react": "^0.2.5",
+    "@prefab-cloud/prefab-cloud-react": "^0.4.1",
     "base-64": "^1.0.0",
-    "react-native-get-random-values": "^1.10.0"
+    "react-native-get-random-values": "^1.11.0"
   },
   "keywords": [
     "feature-flags",
