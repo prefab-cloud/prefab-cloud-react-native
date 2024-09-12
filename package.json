@@ -1,6 +1,6 @@
 {
   "name": "@prefab-cloud/prefab-cloud-react-native",
-  "version": "0.0.4-rc2",
+  "version": "0.1.0",
   "description": "Feature Flags & Dynamic Configuration as a Service",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
